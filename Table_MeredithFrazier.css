@@ -1,0 +1,29 @@
+/*
+* Meredith Frazier
+* March 13, 2019
+* Table Examples Using Rowspan and Colspan
+*/
+
+/* The universal selector */
+
+*{
+
+}
+
+/* Body properties here */
+
+body {
+
+    background: mistyrose; /* This is the background color of the entire page. */
+
+}
+
+
+
+table, td, th {border: 1px solid blue;} /* This makes the borders of the tables blue and 1 pixel wide. */
+
+table {border-collapse: collapse;}  /* This makes the borders one line. */
+
+thead {background-color: lime;} /* This makes the theads of the tables lime. */
+
+tfoot {background-color: deepskyblue;}  /* This makes the tfoots of the tables blue. */
